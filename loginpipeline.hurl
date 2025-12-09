@@ -1,14 +1,17 @@
-POST https://pipeline-dev-b2bygkfbaaa0eab8.westcentralus-01.azurewebsites.net/v1/users/login  
+POST https://pipeline-dev-b2bygkfbaaa0eab8.westcentralus-01.azurewebsites.net/v1/users/login
 Content-Type: application/json
 
 {
-  "email": "abbad.akram@ailh.com",
-  "password": "Abbad@123"
+  "email": "demo@hog.com",
+  "password": "DemoHog@123"
 }
 
 HTTP 200
 
 GET https://pipeline-dev-b2bygkfbaaa0eab8.westcentralus-01.azurewebsites.net/v1/dashboard/
+HTTP 200
+
+GET https://pipeline-dev-b2bygkfbaaa0eab8.westcentralus-01.azurewebsites.net/v1/pipelines_group/
 HTTP 200
 
 GET https://pipeline-dev-b2bygkfbaaa0eab8.westcentralus-01.azurewebsites.net//v1/pipelines/
